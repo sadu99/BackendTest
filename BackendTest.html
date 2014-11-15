@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Backend Test</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet"> 
+
+</head>
+
+<body>    
+
+<div class="container">
+
+<div class="page-header">
+    <h1><Strong>MySQL Backend Test</h1></Strong>
+</div>
+
+<!-- Registration form - START -->
+<div class="container">
+    <div class="row">
+            <div class="col-md-12">
+            <form role="form" action="config.php" method="post">
+                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span> Required Field</strong></div>
+                <div class="form-group">
+                    <label for="InputName">Enter Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="Name" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div> 
+                </div>
+                <div class="form-group">
+                    <label for="InputName">Enter Email</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" name="Email" id="InputEmail" placeholder="Enter Email" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div> 
+                </div>
+            <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right"> <br>
+        </form>
+        <br>
+    </div>
+</div>
+<!-- Registration form - END -->
+
+</body>
+
+</html>
+
